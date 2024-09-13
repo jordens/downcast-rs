@@ -39,7 +39,8 @@ extern crate downcast;
 
 __Q: Can i cast trait objects to trait objects?__
 
-A: No, that is currently no possible in safe rust - and unsafe solutions are very tricky, as well. If you found a solution, feel free to share it!
+A: Without knowing the concrete type that is currently no possible in safe rust - and unsafe solutions are very tricky, as well. If you found a solution, feel free to share it!
+There are crates that do implement such a type/trait registry, e.g. [crosstrait](https://crates.io/crates/crosstrait) or [intertrait](https://crates.io/crates/intertrait).
 
 __Q: What is the difference between this and the `downcast-rs` crate on crates.io?__
 
